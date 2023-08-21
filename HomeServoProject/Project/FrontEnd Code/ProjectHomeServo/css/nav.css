@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+#main1{
+    /* border: 2px solid; */
+    height: 70px;
+    background-color: #fff;
+    /* border: none; */
+    filter: drop-shadow(5px 5px 10px #fff);
+
+}
+
+#main{
+ margin: auto;
+width: 80%;
+/* border: 2px solid; */
+height: inherit;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+#sub-nav ol{
+    gap: 80px;
+    width: 100%;
+    list-style: none;
+    padding: 0%;
+    border: 2px solid;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sub-nav1{
+    /* border: 2px solid; */
+    width: 100px;
+    position: absolute;
+    left: 69%;
+    padding: 0%;
+    list-style: none;
+    height: 100px;
+    display: none;
+    /* border: none; */
+}
+
+#sub-nav1 li{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sub-nav1 li a{
+    text-decoration: none;
+}
+
+#sub-nav2 {
+    /* border: 2px solid; */
+    width: 100px;
+    position: absolute;
+    right: 10%;
+    padding: 0%;
+    list-style: none;
+    height: 100px;
+    /* border: none; */
+
+}
+
+#sub-nav2 li{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sub-nav2 li a{
+    text-decoration: none;
+}
+
+#drop-down{
+    list-style: none;
+    padding: 0%;
+    /* border: 2px solid; */
+    position: absolute;
+    left: 540px;
+    width: 200px;
+    top: 50px;
+    display: none;
+}
+
+#drop-down li{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #b637b2;
+    border: 1px solid #b637b2;
+    text-indent: 30px;
+    background-color: #fff;
+    color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#drop-down li:hover{
+    background-color: #b637b2;
+    color: #fff;
+    transition: ease all -5s;
+    font-family:'Montserrat',sans-serif;
+}
+
+#bg-image{
+    background-image: url(../image/HOME-CLEANING.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
